@@ -1,21 +1,54 @@
-# Raylib OOP Workshop
+Raylib OOP Workshop
 
-This repository contains the source code for the Raylib Object-Oriented Programming (OOP) workshop. It demonstrates how to structure a basic game utilizing the Raylib library through an object-oriented approach in C++.
+This repository contains the source code for a Raylib Object-Oriented Programming (OOP) workshop project. 
+It demonstrates how to structure a simple game using the Raylib library with an object-oriented approach in C++.
 
-## Files Directory
+--------------------------------------------------
+Project Structure
+--------------------------------------------------
 
-- `game.cpp` / `game.h`: Core game loop and logic.
-- `game_entities.h`: Definitions for various entities within the game.
-- `shapes.h`: Structures or classes handling different shapes rendering.
-- `build_game.bat`: A batch script to compile and build the game executable.
-- `build_example.bat`: A batch script for building examples.
-- `libs/`: Dependencies and libraries for Raylib.
-- `game.exe`: The compiled application.
+- game.cpp / game.h
+  Core game loop and main game logic.
 
-## How to Build
+- game_entities.h
+  Definitions of different game entities.
 
-Use the provided batch scripts (e.g., `build_game.bat`) to compile the project via command line. Ensure your C++ compiler (such as g++) is set up in your system's PATH.
+- shapes.h
+  Classes or structures used for rendering shapes.
 
-## How to Run
+- build_game.bat
+  Batch script to compile and build the main game.
 
-After a successful build, simply execute `game.exe`.
+- build_example.bat
+  Batch script to compile example files.
+
+- libs/
+  Contains required Raylib libraries and dependencies.
+
+- game.exe
+  Compiled executable file of the game.
+
+--------------------------------------------------
+How to Build
+--------------------------------------------------
+
+1. Make sure you have a C++ compiler installed (e.g., g++).
+2. Ensure the compiler is added to your system PATH.
+3. Run the build script:
+
+   build_game.bat
+
+--------------------------------------------------
+How to Run
+--------------------------------------------------
+
+After building the project successfully, run:
+
+   game.exe
+
+--------------------------------------------------
+Notes
+--------------------------------------------------
+
+- This project is intended for learning OOP concepts using Raylib.
+- You can modify and extend the code to add new features or improve the game.
